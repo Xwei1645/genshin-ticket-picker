@@ -99,7 +99,7 @@ const config = {
 		VitePWA({
 			strategies: 'injectManifest',
 			srcDir: 'src',
-			outDir: '.vercel/output/static',
+			outDir: 'build/client',
 			filename: 'sw.js',
 			registerType: 'prompt',
 			manifestFilename: 'appmanifest.json',
